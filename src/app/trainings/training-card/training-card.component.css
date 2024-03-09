@@ -1,0 +1,86 @@
+.training-card {
+    width: calc(365px * 0.8);
+    height: calc(361px * 0.8);
+}
+
+.training-content {
+    background: #EBF6FF;
+}
+
+.training-date {
+    width: calc(99px * 0.8);
+    height: calc(28px * 0.8);
+    margin-top: calc(30px * 0.8);
+    margin-left: calc(20.5px * 0.8);
+    background: #92BEE1;
+    font-size: calc(12px * 0.8);
+    font-weight: 600;
+    color: #fff;
+}
+
+.training-dept {
+    color: #31425A;
+    font-size: calc(14px * 0.8);
+    font-weight: 400;
+    margin-left: calc(20.5px * 0.8);
+    margin-top: calc(15px * 0.8);
+}
+
+.dept-type {
+    background: #FFB427;
+    border-radius: calc(2px * 0.8);
+    font-size: calc(12px * 0.8);
+    font-weight: 600;
+    padding: calc(2px * 0.8) calc(4px * 0.8);
+}
+
+.training-dept-text {
+    color: #012544;
+    font-size: calc(16px * 0.8);
+    font-weight: 700;
+    margin-left: calc(20.5px * 0.8);
+    line-height: calc(24px * 0.8);
+    margin-top: calc(10px * 0.8);
+}
+
+.training-mentor-content {
+    margin-left: calc(20.5px * 0.8);
+    line-height: calc(21x * 0.8);
+    margin-top: calc(15px * 0.8);
+    font-size: calc(16px * 0.8);
+    font-weight: 400;
+    color: #012544;
+    gap: 10px;
+}
+
+.training-card {
+    border: 1px solid #E1E1E1;
+}
+
+.training-desc {
+    font-size: calc(14px * 0.8);
+    font-weight: 400;
+    color: #31425A;
+    margin-left: calc(20.5px * 0.8);
+    line-height: calc(21x * 0.8);
+    margin-top: calc(15px * 0.8);
+}
+
+.training-footer {
+    margin-left: calc(20.5px * 0.8);
+    margin-top: calc(15px * 0.8);
+    margin-right: calc(28px * 0.8);
+    font-size: calc(14px * 0.8);
+    font-weight: 500;
+}
+
+.view-training-btn {
+    border-radius: calc(4px * 0.8);
+    font-size: calc(14px * 0.8);
+    font-weight: 600;
+}
+
+.training-type-text {
+    color: #00A711;
+    gap: calc(4.4px * 0.8);
+}

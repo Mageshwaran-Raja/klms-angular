@@ -1,0 +1,14 @@
+.header {
+    height: calc(108px * 0.8);
+}
+
+.border-radius-bottom {
+    border-radius: 0px 0px calc(35px * 0.8) calc(35px * 0.8);
+}
+
+.header-content {
+    margin-top: calc(37px * 0.8);
+    margin-left: calc(32px * 0.8);
+    font-size: calc(24px * 0.8);
+    font-weight: 600;
+}

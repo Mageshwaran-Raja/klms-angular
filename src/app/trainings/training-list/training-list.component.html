@@ -1,0 +1,20 @@
+<div class="w-100 h-100">
+  <div class="d-flex w-100 h-100">
+    <app-sidenav></app-sidenav>
+    <div class="w-100">
+      <app-header [pageTitle]="'Training'"></app-header>
+      <div
+        style="gap: 20px; margin: calc(20px * 0.8)"
+        class="d-flex flex-wrap h-100"
+      >
+        <ng-container
+          *ngFor="let data of trainings$ | async as training; let i = index"
+        >
+          <div class="flex-column">
+            <app-training-card [data]="data"></app-training-card>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>

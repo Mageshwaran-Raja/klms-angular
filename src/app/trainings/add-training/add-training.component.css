@@ -1,0 +1,23 @@
+.add-trainings-content {
+    margin: calc(57px * 0.8) calc(270px * 0.8) calc(72px * 0.8) calc(35px * 0.8);
+}
+
+.form-label {
+    color: #31425A;
+    font-size: calc(14px * 0.8);
+    font-weight: 400;
+}
+
+.w-561 {
+    width: calc(561px * 0.8);
+}
+
+.w-257 {
+    width: calc(257px * 0.8);
+}
+
+.training-form-field {
+    border: 1px solid #9095AE;
+    font-weight: 500;
+    font-size: calc(16px * 0.8);
+}

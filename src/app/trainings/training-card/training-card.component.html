@@ -1,0 +1,50 @@
+<!-- <div class="card training-card flex-column">
+    <div class="training-content h-50 border-0">
+        <span class="training-date d-flex align-items-center justify-content-center">28 Oct 2022</span>
+        <div class="training-dept-content d-flex flex-row">
+            <span class="training-dept d-flex">UI/UX design</span>
+            <span class="training-dept dept-type d-flex align-items-center justify-content-center">Live</span>
+        </div>
+        <span class="training-dept-text d-flex">UX Research for Apps: 
+            User-centric from Concept to Launch</span>
+    </div>
+    <div class="training-details h-50">
+        <div class="training-mentor-content d-flex flex-row">
+            <span class="training-mentor">Mentor</span>
+            <span class="training-mentor-name">John Doe</span>
+        </div>
+        <div class="training-desc">Amet minim mollit non deserunt ullamco estsit ok aliqua dolor do amet sint velit officia cons equat duis enim velit mollit.</div>
+        <div class="training-footer d-flex flex-row justify-content-between">
+            <button class="view-training-btn btn btn-primary ">View Training</button>
+            <span class="training-type-text d-flex align-items-center">
+                <img src="../../../assets/open.svg" />
+                Open
+            </span>
+        </div>
+    </div>
+</div> -->
+
+<div class="card training-card flex-column">
+    <div class="training-content h-50 border-0">
+        <span class="training-date d-flex align-items-center justify-content-center">{{data.trainingDate}}</span>
+        <div class="training-dept-content d-flex flex-row">
+            <span class="training-dept d-flex">{{data.trainingCategory}}</span>
+            <span class="training-dept dept-type d-flex align-items-center justify-content-center">{{data.trainingType}}</span>
+        </div>
+        <span class="training-dept-text d-flex">{{data.trainingTitle}}</span>
+    </div>
+    <div class="training-details h-50">
+        <div class="training-mentor-content d-flex flex-row">
+            <span class="training-mentor">Mentor</span>
+            <span class="training-mentor-name">{{data.mentorName}}</span>
+        </div>
+        <div class="training-desc">{{data.trainingDesc}}</div>
+        <div class="training-footer d-flex flex-row justify-content-between">
+            <button class="view-training-btn btn btn-primary ">View Training</button>
+            <span class="training-type-text d-flex align-items-center">
+                <img src="../../../assets/open.svg" />
+                Open
+            </span>
+        </div>
+    </div>
+</div>

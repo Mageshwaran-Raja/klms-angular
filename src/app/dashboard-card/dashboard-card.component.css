@@ -1,0 +1,35 @@
+.rounded-16 {
+  border-radius: calc(16px * 0.8);
+  box-shadow: 0px calc(4px * 0.8) calc(13px * 0.8) 0px #00000014;
+  width: calc(365px * 0.8);
+  height: calc(150px * 0.8);
+}
+
+.card-content {
+  padding: calc(19px * 0.8) calc(34px * 0.8) calc(19px * 0.8) calc(24px * 0.8);
+  box-sizing: border-box;
+}
+
+.card-img {
+  width: calc(112px * 0.8);
+  height: calc(112px * 0.8);
+}
+
+.card-text {
+  margin-top: calc(13.5px * 0.8);
+  margin-left: calc(24px * 0.8);
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: calc(18px * 0.8);
+}
+
+.card-text-color {
+  color: #012544;
+}
+
+.card-sub-title {
+  font-weight: 700;
+  font-size: calc(32px * 0.8);
+}

@@ -1,0 +1,156 @@
+<div class="w-100 h-100">
+  <div class="d-flex w-100 h-100">
+    <app-sidenav></app-sidenav>
+    <div class="w-100">
+      <app-header [pageTitle]="'Add Training'"></app-header>
+      <div class="w-100 h-100">
+        <div class="add-trainings-content">
+          <div
+            class="training-participant d-flex flex-row justify-content-between"
+          >
+            <div>
+              <label class="form-label">Training Name</label>
+              <input
+                #trainingTitle
+                class="form-control w-561 training-form-field"
+                type="text"
+                placeholder="Training Name"
+              />
+            </div>
+            <div
+              style="gap: calc(47px * 0.8)"
+              class="d-flex flex-row justify-content-between"
+            >
+              <div>
+                <label class="form-label">Participants</label>
+                <select
+                  class="form-select training-form-field w-257"
+                  aria-label="Default select example"
+                >
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div>
+                <label class="form-label">Participants Count</label>
+                <input
+                  class="form-control training-form-field w-257"
+                  type="text"
+                  placeholder="Participants Count"
+                />
+              </div>
+            </div>
+          </div>
+          <div style="gap: calc(47px * 0.8)" class="d-flex flex-row mt-4">
+            <div>
+              <label class="form-label">Category</label>
+              <select
+                #trainingCategory
+                class="form-select training-form-field w-257"
+                aria-label="Default select example"
+              >
+                <option selected>Open this select menu</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Product">Product</option>
+                <option value="UI/UX Design">UI/UX Design</option>
+              </select>
+            </div>
+            <div>
+              <label class="form-label">Type</label>
+              <select
+                #trainingType
+                class="form-select training-form-field w-257"
+                aria-label="Default select example"
+              >
+                <option selected>Open this select menu</option>
+                <option value="Live">Live</option>
+                <option value="Offline">Offline</option>
+              </select>
+            </div>
+            <div style="margin-left: auto">
+              <label class="form-label">Description</label>
+              <input
+                #trainingDesc
+                class="form-control w-561 training-form-field"
+                type="text"
+                placeholder="Training Description"
+              />
+            </div>
+          </div>
+          <div class="d-flex flex-row mt-4">
+            <div>
+              <label class="form-label">Create Link</label>
+              <select
+                class="form-select training-form-field w-561"
+                aria-label="Default select example"
+              >
+                <option selected>Open this select menu</option>
+                <option value="1">Google Meet</option>
+                <option value="2">Teams Meeting</option>
+                <option value="3">Zoom</option>
+              </select>
+              <input
+                class="form-control training-form-field w-561 mt-2"
+                type="text"
+                placeholder="Participants Count"
+              />
+            </div>
+          </div>
+          <div style="gap: calc(47px * 0.8)" class="d-flex flex-row mt-4">
+            <div>
+              <label class="form-label">Remainder</label>
+              <select
+                class="form-select training-form-field w-257"
+                aria-label="Default select example"
+              >
+                <option selected>Open this select menu</option>
+                <option value="1">Data Science</option>
+                <option value="2">Product</option>
+                <option value="3">UI/UX Design</option>
+              </select>
+            </div>
+            <div>
+              <label class="form-label">Mentor</label>
+              <select
+                #mentorName
+                class="form-select training-form-field w-257"
+                aria-label="Default select example"
+              >
+                <option selected>Open this select menu</option>
+                <option value="John Doe">John Doe</option>
+                <option value="John">John</option>
+                <option value="Nathan">Nathan</option>
+              </select>
+            </div>
+          </div>
+          <div style="gap: calc(47px * 0.8)" class="d-flex flex-row mt-4">
+            <div>
+              <label class="form-label">Start Date</label>
+              <input
+                #trainingDate
+                class="form-control training-form-field w-257"
+                type="date"
+                placeholder="Participants"
+              />
+            </div>
+            <div>
+              <label class="form-label">End Date</label>
+              <input
+                class="form-control training-form-field w-257"
+                type="date"
+                placeholder="Participants Count"
+              />
+            </div>
+          </div>
+          <div class="form-footer mt-4 d-flex justify-content-end flex-row">
+            <button class="btn">Cancel</button>
+            <button class="btn btn-primary" (click)="addTraining(trainingTitle.value, trainingType.value, trainingCategory.value, 
+            mentorName.value, trainingDate.valueAsDate!, trainingDesc.value)" type="submit">Add Training</button>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
